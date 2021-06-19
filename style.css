@@ -109,7 +109,7 @@ select {
 /*
 メインビジュアル */
 #main-visual{
-    background-image: url(../images/mainvisual.jpg);
+    background-image: url(https://nmayu.github.io/macaron/mainvisual.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
