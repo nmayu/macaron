@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/ress.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <script src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+<!--ナビゲーション-->
+    <header>
+        <nav class="g-navi">
+            <div class="container nav-wrapper"> <!--containerでnavの幅指定-->
+                <ul>
+                    <li class="nav-item"><a href="#concept">CONCEPT</a></li>
+                    <li class="nav-item"><a href="#feature">FEATURE</a></li>
+                    <li class="nav-item"><a href="#thought">THOUGHT</a></li>
+                    <li class="nav-item"><a href="#lineup">LINE UP</a></li>
+                    <li class="nav-item"><a href="#store">STORE</a></li>
+                    <li class="nav-item"><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--＊sp_navー-->
+        <nav class="g-navi-sp">
+            <div class="sp-logo">
+                <p class="logo-title">DAWN macoron</p>
+            </div>
+            <!--ハンバーガー-->
+            <div class="menu-trigger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+    </header>
+<!--メインビジュアル -->
+    <section id="main-visual">
+        <div class="container mv-wrapper">　<!--containerでmvの幅指定--><!--コンテンツ配置のmv-wrapper-->
+            <div class="mv-right"> <!--テキストとボタン-->
+                <h1>DAWN macaron</h1>
+                <p class="text">ひとくちにしあわせは宿る</p>
+                <div class="purchase-button">
+                    <a href="#inlineup">ご購入はこちら</a>
+            </div>
+         </div>
+    </section>
+
+<!--コンセプト-->
+    <section id="concept">
+        <div class="container">
+            <div class="title">
+                <h2>Concept</h2>
+                <span class="ja-title">コンセプト</span>
+            </div>
+        </div>        
+        <div class="concept-copy">
+            <h3 class="main-copy">ひとくちにしあわせは宿る</h3>
+            <p class="concept-text about-text">コンセプトは<br><strong>いつでも楽しめるマカロン</strong></p>
+            <p class="concept-text about-text">愛らしいかたちと口に入れた瞬間のハーモニーを、手軽に感じてもらいたい。<br>その願いを込めて、私たちはマカロンを作っています。</p>
+            <p class="concept-text about-text">慌ただしい「いま」を生きるみなさまを、<br>マカロンがそばにあるスイートな日常で、包み込みたい。</p>
+            <p class="concept-text about-text">今日の気分は、これ。明日は、これ。<br>DAWN発の新作マカロンを是非御賞味ください。</p>
+        </div>            
+    </section>
+
+ <!--feature-->   
+    <section id="feature">
+        <div class="container">
+            <div class="title">
+                <h2>Feature</h2>
+                <span class="ja-title">こだわり</span>
+            </div>
+            <div class="feature-wrapper">
+                <div class="feature-box box-design">
+                    <img class="feature-image" src="images/egg_material.jpg" alt="material">
+                    <div class="feature-text">
+                        <span class="feature-number">Point1</span>
+                        <h3 class="feature-title">安心安全の素材</h3>
+                        <p class="feature-about about-text">身体に優しい素材を仕入れ、丁寧に仕上げます。マカロンの中に入れるジャムやチョコも有機栽培で作られた果実のみ使用。</p>
+                    </div>
+                </div>
+                <div class="feature-box box-design">
+                    <img class="feature-image" src="images/macaronerju.jpg" alt="2">
+                    <div class="feature-text">
+                        <span class="feature-number">Point2</span>
+                        <h3 class="feature-title">徹底したこだわり</h3>
+                        <p class="feature-about about-text">マカロンの食感を決める独自の「マカロナージュ」「乾燥方法」を採用しています。中はしっとり、外はさくっと。</p>
+                    </div>
+                </div>
+                <div class="feature-box box-design">
+                    <img class="feature-image" src="images/macalon.jpg" alt="3">
+                    <div class="feature-text">
+                        <span class="feature-number">Point3</span>
+                        <h3 class="feature-title">可愛らしいパッケージ</h3>
+                        <p class="feature-about about-text">手に取った時の「ほっこり」とした気分。目で感じ、舌でも感じるやさしい温もり。状況に合ったパッケージをお選び下さい。</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </section>
+
+<!--thought-->
+    <section id="thought">
+        <div class="container">
+            <div class="title">
+            <h2>Thought</h2>
+            <p class="ja-title">想い</p>
+            </div>
+        <!--Box-->
+        <div class="thought-container">
+            <!--slide1-->
+            <div class="staff-box  active box-design">
+                <img class="staff-image" src="images/cake.jpg" alt="シェフ">
+                <div class="staff-text">
+                    <h3 class="staff-title">お客様が口に運ぶ瞬間までデザインする</h3>
+                    <p class="staff-about about-text">　マカロンはお菓子の宝石とも称されます。見て感動、口に入れて感動してもらえるマカロンを作りたいと思い厨房にいます。毎夜スタッフで作っては試食を重ね毎月必ず新商品をリリースしています。心を込めたマカロンをぜひご賞味頂きたいです。</p>
+                    <p class="staff-name about-text">パティシエ　田中啓介</p>
+                </div>
+            </div>
+            <!--slide2-->
+            <div class="staff-box">
+                <img class="staff-image" src="images/cake.jpg" alt="ホール">
+                <div class="staff-text">
+                    <h3 class="staff-title">笑顔を絶やさず</h3>
+                    <p class="staff-about about-text">マカロンと合うお飲み物をオススメするのが私たちの仕事です。特に初めていらっしゃるお客様にはステキな時間を過ごして頂けるよう、笑顔で接客する事を心がけています。dawn CAFEでのひと時が次の活力になれれば幸せです。</p>
+                    <p class="staff-name about-text">ホール　安田祐美</p>
+                </div>
+            </div>
+            <!--slide3-->
+            <div class="staff-box">
+                <img class="staff-image" src="images/cake.jpg" alt="バリスタ">
+                <div class="staff-text">
+                    <h3 class="staff-title">マカロン×◯○＝∞</h3>
+                    <p class="staff-about about-text">マカロンに合うお飲み物をプロデュースしています。マカロンひとつ取っても、鼻から抜ける風味はそれぞれ特徴があります。ステキな時間を最適なお飲み物とマカロンを食べながら過ごしませんか？</p>
+                    <p class="staff-name about-text">バリスタ　沖田杏奈</p>
+                </div>
+            </div>
+            <!--進む戻る--><!--（見えないボックス）-->
+            <span class="slide-button prev"></span>
+            <span class="slide-button next"></span>
+        </div>
+        </div>
+    </section>
+
+<!--macaronlife-->
+    <section id="macaronlife">
+        <div class="container">
+            <div class="title">
+                <h2>Macaron Life</h2>
+                <p class="ja-title">豊かなマカロンライフ</p>
+            </div>
+            <!--ボックスここから-->
+            <div class="life-wrapper">
+            <!--ボックス1-->    
+                <div class="life-type">
+                    <a href="" class="modalopen" data-target="modal01">
+                        <img class="life-img" src="images/72b6ec07584a56df316dfbf86ee5b5d4_m フレーム.jpg" alt="teatime">
+                        <p class="life-name">tea time</p>
+                    </a>
+                </div>
+                <!--モーダル-->
+                <div class="modal-main js-modal" id="modal01">
+                    <div class="modal-inner">
+                        <div class="inner-content">
+                            <p class="inner-title">Tea time</p>
+                            <img src="images/72b6ec07584a56df316dfbf86ee5b5d4_m フレーム.jpg" alt="teatime" class="image-modal">
+                            <p class="inner-text">マカロンとコーヒーのマリアージュ</p>
+                            <a class="send-button modalClose">Close</a>
+                        </div>
+                    </div>
+                </div>
+            <!--ボックス2-->
+                <div class="life-type">
+                    <a href="#" class="modalopen" data-target="modal02">
+                        <img class="life-img" src="images/f84152e7b0f8d6e37c905f3bef65c4c6_s フレーム.jpg" alt="cake">
+                        <p class="life-name">party</p>
+                    </a>
+                </div>
+                <!--モーダル-->
+                <div class="modal-main js-modal" id="modal02">
+                    <div class="modal-inner">
+                        <div class="inner-content">
+                            <p class="inner-title">party</p>
+                            <img src="images/f84152e7b0f8d6e37c905f3bef65c4c6_s フレーム.jpg" alt="party" class="image-modal">
+                            <p class="inner-text">仲間とお酒を飲んだあとの私服のスイーツ</p>
+                            <a class="send-button modalClose">Close</a>
+                        </div>
+                    </div>
+                </div>
+            <!--ボックス3-->
+                <div class="life-type">
+                    <a href="" class="modalopen" data-target="modal03">
+                        <img class="life-img" src="images/1545c23b6a83fcbede2cb0099d7ae2f9_m フレーム.jpg" alt="candy">
+                        <p class="life-name">gifts</p>
+                    </a>
+                </div>
+                <!--modal-->
+                <div class="modal-main js-modal" id="modal03">
+                    <div class="modal-inner">
+                        <div class="inner-content">
+                            <p class="inner-title">party</p>
+                            <img src="images/1545c23b6a83fcbede2cb0099d7ae2f9_m フレーム.jpg" alt="gifts" class="image-modal">
+                            <p class="inner-text">愛情いっぱいのマカロンを大切な人に</p>
+                            <a class="send-button modalClose">Close</a>
+                        </div>
+                    </div>
+                </div>
+            <!--box4-->
+                <div class="life-type">
+                    <a href="" class="modalopen" data-target="modal04">
+                        <img class="life-img" src="images/b32439ce954dd3c60ae87f3241bc37fe_m フレーム.jpg" alt="season">
+                        <p class="life-name">season</p>
+                    </a>
+                </div>
+                <!--modal-->
+                <div class="modal-main js-modal" id="modal04">
+                    <div class="modal-inner">
+                        <div class="inner-content">
+                            <p class="inner-title">party</p>
+                            <img src="images/b32439ce954dd3c60ae87f3241bc37fe_m フレーム.jpg" alt="season" class="image-modal">
+                            <p class="inner-text">時代の移り変わりにマカロンで彩りを</p>
+                            <a class="send-button modalClose">Close</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            </div>
+        </div>
+    </section>
+
+<!--ラインナップ-->
+    <section id="lineup">
+        <div class="container">
+            <div class="title">
+                <h2>Line up</h2>
+                <p class="ja-title">シチュエーション別おすすめ</p>
+            </div>
+            <!--ラインナップ5-->
+            <div class="lineup-menu">
+                <ul class="filter">
+                    <li class="ranking-tab active"><a class="ranking" data-filter="ranking" href="#">ranking</a></li> 
+                    <li class="lineup-tab"><a class="tea" data-filter="tea" href="#">tea time</a></li>
+                    <li class="lineup-tab"><a class="party" data-filter="party" href="#">party</a></li>
+                    <li class="lineup-tab"><a class="gifts" data-filter="gifts" href="#">gifts</a></li>
+                    <li class="lineup-tab"><a class="season" data-filter="season" href="#">season</a></li>
+                </ul>
+            </div>
+            <!--ラインナップ3つ-->
+            <div class="lineup-wrapper">
+                <!--1つめ-->
+                <div class="lineup-product" data-category="tea">
+                    <div class="lineup-image">
+                        <img src="images/lemon.png" alt="レモン">
+                    </div>
+                    <div class="lineup-about">
+                            <div class="lineup-name">
+                                <span class="name-en">Lemon</span>
+                                <span class="name-ja">レモン</span>
+                            </div>
+                            <p class="lineup-text about-text">レモンの爽やかな酸味の切れ味が絶妙な逸品です。</p>
+                    </div>
+                </div>
+                <!--2つめ-->
+                <div class="lineup-product" data-category="party">
+                    <div class="lineup-image">
+                        <img src="images/pistatio.png" alt="ピスタチオ">
+                    </div>
+                    <div class="lineup-about">
+                        <div class="lineup-name">
+                            <span class="name-en">Pistachio</span>
+                            <span class="name-ja">ピスタチオ</span>
+                        </div>
+                        <p class="lineup-text about-text">香り・コク・旨みが凝縮したピスタチオならではの気品漂う逸品です。</p>
+                    </div>
+                </div>
+                <!--3つめ-->
+                <div class="lineup-product" data-category="gifts">
+                    <div class="lineup-image">
+                        <img src="images/strawberry.png" alt="ストロベリー">
+                    </div>
+                    <div class="lineup-about">
+                        <div class="lineup-name">
+                            <span class="name-en">strawberry</span>
+                            <span class="name-ja">ストロベリー</span>
+                        </div>
+                        <p class="lineup-text about-text">優雅なイチゴの甘みの後はフレッシュ感ある酸味が訪れます。</p>
+                    </div>
+                </div>
+        　　　</div>
+            <!--moreボタン-->
+            <div class="more-lineup">
+                <a href="#" class="btn-more">more</a>
+            </div>
+        </div>
+    </section>
+
+ <!--package-->   
+    <section id="package">
+        <div class="container">
+            <div class="title">
+                <h2>Package</h2>
+                <p class="ja-title">場面に合わせて3種類からお選びいただけます</p>
+            </div>
+            <div class="package-wrapper">
+             <!--パッケージ1-->
+             <div class="package-lineup">
+                <!--画像--> 
+                <img class="package-image" src="images/0e3c1b341dd56cead0e96f9992a4a7f4_m フレーム.png" alt="3個入り">
+                <!--テキスト-->
+                <div class="pack-text">
+                    <h3 class="package-title">DAWNマカロン 3個入り</h3>
+                    <p class="package-value">¥910(税込)</p>
+                </div>
+                <!--購入フォーム-->
+                <div class="purchase-wrapper">
+                    <select class="package-select" name="select">
+                        <option value="">マカロンを選ぶ</option>
+                        <option value="lemon">レモン</option>
+                        <option value="pistachio">ピスタチオ</option>
+                    　　 <optin value="strawberry">ストロベリー</optin>
+                    </select>
+                 <div class="purchase-number">
+                     <select class="number" name="number">
+                         <option value="1">1</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                    </select>
+                </div>
+                    <div class="selectcart">
+                        <a href="#">カートに入れる</a>
+                    </div>
+                </div>
+                <!--紹介文-->
+                <p class="package-text about-text">お好みのマカロン3個が入ったセット。1習慣がんばった自分へのご褒美に。</p>
+             </div>
+             <!--2つめ-->
+             <div class="package-lineup">
+                 <img class="package-image" src="images/0889799104f9ae706ed5cad3cab69313_m フレーム.png" alt="6個入り">
+                 <div class="pack-text">
+                     <h3 class="package-title">HRIマカロン 6個入り</h3>
+                     <p class="package-value">¥1,820(税込)</p>
+                 </div>
+                 <div class="purchase-wrapper">
+                     <select class="package-select" name="select">
+                         <option value="">マカロンを選ぶ</option>
+                         <option value="lemon">レモン</option>
+                         <option value="pistachio">ピスタチオ</option>
+                         <option value="strawberry">ストロベリー</option>
+                     </select>
+                <div class="purchase-number">
+                    <select class="number" name="number">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+                     <div class="selectcart">
+                         <a href="#">カートに入れる</a>
+                     </div>
+                 </div>
+                 <p class="package-text about-text">お好みのマカロンが6個入ったセット。ご友人の方へ、日頃の感謝を込めて。</p>
+             </div>
+             <!--3つめ-->
+             <div class="package-lineup">
+                 <img class="package-image" src="images/0d272d38dfe7d191acc781540c10397d_m フレーム.png" alt="12個入り">
+                 <div class="pack-text">
+                     <h3 class="package-title">HRIマカロン 12個入り</h3>
+                     <p class="package-value">¥3,640(税込)</p>
+                 </div>
+                 <div class="purchase-wrapper">
+                     <select class="package-select" name="select">
+                         <option value="">マカロンを選ぶ</option>
+                         <option value="lemon">レモン</option>
+                         <option value="pistachio">ピスタチオ</option>
+                         <option value="strawberry">ストロベリー</option>
+                     </select>
+                <div class="purchase-number" name="number">
+                    <select class="number" name="number">
+                     　　 <option value="1">1</option>
+                     　　 <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                    </select>
+                </div> 
+                <div class="selectcart">
+                    <a href="#">カートに入れる</a>
+                </div>    
+                 </div>
+                 <p class="pavkage-text about-text">お好みのマカロンが12個入ったセット。気兼ねなく過ごせる時間と一緒に素敵なマカロンタイムを。</p>
+             </div>
+            </div>
+        </div>
+    </section>
+
+<!--store-->
+    <section id="store">
+        <div class="container">
+            <div class="title">
+                <h2>Store</h2>
+                <p class="ja-title">店舗情報</p>
+            </div>
+            <div class="store-wrapper">
+                <iframe class="map-image" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.726357448642!2d139.7434459504744!3d35.68373933734528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c7116eab8ad%3A0xc57fcf864ba7dda6!2z44CSMTAwLTAwMDEg5p2x5Lqs6YO95Y2D5Luj55Sw5Yy65Y2D5Luj55Sw77yR4oiS77yR!5e0!3m2!1sja!2sjp!4v1620087166930!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <!--text-->
+                <div class="cafe-text">
+                        <p class="store-name">HRI Macaron</p>
+                        <addree>
+                            <p>〒100-8111<br>
+                                東京都千代田区千代田1-1<br>
+                                TEL:<a class="store-address" href="tel:0120000000">0120-000-000</a>
+                            </p> <!--hrefで「tel:」にすると電話がかけられる-->
+                        </addree>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--contact-->    
+    <section id="contact">
+        <div class="container">
+            <div class="title">
+                <h2>Contact</h2>
+                <p class="ja-title">お問い合わせ</p>
+            </div>
+            <!--form-->
+            <form action="index.php" method="post">
+                <!--name-->
+                <div class="ct-block">
+                    <label class="contact-text" for="name">お名前</label>
+                    <input type="text" name="yourname" placeholder="例：田中太郎" class="form-name">
+                </div>
+                <!--mail-->
+                <div class="ct-block">
+                    <label class="contact-text" for="email">メールアドレス</label>
+                    <input type="text" name="mail" placeholder="例：xxx@xxx.com" class="form-mail">
+                </div>
+                <!--用件-->
+                <div class="ct-block">
+                    <label for="main" class="contact-text">主なご用件</label>
+                    <div class="cp-howto">
+                        <select name="main-request" requires>
+                            <option value="" hidden>ご選択ください</option>
+                            <option value="1">お店の予約について</option>
+                            <option value="2">宅配サービスについて</option>
+                            <option value="3">商品について</option>
+                            <option value="4">社員採用について</option>
+                        </select>
+                    </div>
+                </div>
+                <!--contact-->
+                <div class="ct-block">
+                    <label for="request-about" class="contact-text">お問い合わせ内容</label>
+                    <textarea name="request-about" id="request-about" cols="60" rows="6" placeholder="ここに記入してください"></textarea>
+                </div>
+                <!--送信-->
+                <input class="send-button" type="submit" value="送信">
+            </form>
+        </div>
+    </section>
+
+<!--footer-->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <!--1logo&SNS-->
+                <div class="logo-wrapper">
+                    <!--logo-->
+                    <a href="#" class="logo">DAWN macaron</a>
+                    <!--各SNS-->
+                    <div class="sns-block">
+                        <!--twitter-->
+                        <a class="mark" href="https://twitter.com/" target="_blank">
+                            <img class="sns-mark" src="images/twitter.png" alt="twitter" width="30px">
+                          </a>
+                        <!--fb-->
+                        <a class="mark" href="https://facebook.com/" target="_blank">
+                            <img class="sns-mark" src="images/facebook.png" alt="facebook" width="30px">
+                        </a>
+                        <!--insta-->
+                        <a class="mark" href="https://www/instagram.com/" target="_blank">
+                            <img class="sns-mark" src="images/instagram.png" alt="instagram" width="30px">
+                        </a>
+                    </div>
+                </div>
+            
+            <!--2menu-->
+            <div class="menu">
+                <ul>
+                    <li><a href="#concept">CONCEPT</a></li>
+                    <li><a href="#feature">FEATURE</a></li>
+                    <li><a href="#thought">THOUGHT</a></li>
+                    <li><a href="#lineup">LINEUP</a></li>
+                    <li><a href="#store">STORE</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <!--3規約-->
+            <div class="menu">
+                <ul>
+                    <li><a href="#">利用規約</a></li>
+                    <li><a href="#">特定商取引法について</a></li>
+                    <li><a href="#">プライバシーポリシー</a></li>
+                </ul>
+            </div>
+            </div>
+            <!--copyright-->
+            <small>Copyright ©︎ 2021 DAWN ink. All Rights Reserved.</small>
+        </div>
+    </footer>
+</body>
+</html>
