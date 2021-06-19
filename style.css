@@ -166,7 +166,7 @@ select {
 }
 #concept{
     background-color: #f7e8e8;
-    background-image: url(../images/back1.png),url(../images/right_back.png);
+    background-image: url(../images/back1.png),url(https://nmayu.github.io/macaron/right_back.png);
     background-size: 22%,22%;
     background-repeat: no-repeat;
     background-position: 0 0,100% 100%;
@@ -699,7 +699,7 @@ p{
 
     /*mv*/
     #main-visual{
-        background-image: url(../images/sp_visual.jpg);
+        background-image: url(https://nmayu.github.io/macaron/sp_visual.jpg);
         height:500px;
         max-height:inherit;
         padding-top:60px;
